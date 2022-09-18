@@ -19,7 +19,7 @@ variable "k8s_config_path" {
   default     = "C:\\Users\\getma\\.kube\\config"
 }
 
-variable "mongodb_url" {
+variable "app_config" {
   description = "Endpoint of mongodb"
   default     = "mongodb://root:password@mongodb-svc:27017"
 }

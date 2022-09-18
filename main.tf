@@ -169,7 +169,7 @@ resource "kubernetes_deployment" "mern-app-deployment" {
           }
           env {
             name  = "MONGODB_URI"
-            value = var.mongodb_url
+            value = "${var.app_config}"
           }
           # resources {
           #   limits = {
