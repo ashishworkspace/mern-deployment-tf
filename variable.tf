@@ -5,7 +5,7 @@ variable "github_repo_url" {
 
 
 variable "project_dir" {
-  description = "Project path directory"
+  description = "Project directory name"
   default     = "boilerplate-mern"
 }
 
